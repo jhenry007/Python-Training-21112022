@@ -11,9 +11,8 @@ inputbox = str(input("Please input your longest word here, without the character
 
 print("A" in inputbox)
 i = ("A" in inputbox)
-while i == False:
-    print("Congratulation, you have selected the longest sentence without A")
+while i == True:
+    str(input("Your sentence contains the character A, please select another sentence : "))
     break
 else:
-    str(input("Your sentence contains the character A, please select another sentence : "))
-
+    print("Congratulation, you have selected the longest sentence without A")
